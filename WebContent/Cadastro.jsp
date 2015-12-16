@@ -17,12 +17,14 @@
 		<br>
 		 <br>
 
-		Descrição:<input type="textarea" name="descricao">
+		Descrição:<textarea name ="descricao" rows="4" cols="50">
+				 Entre com a descrição aqui...
+				</textarea>
 		
 		 <br>
 		  <br>
 
-		Tipo do Vólume:<select name="tipo">
+		Tipo do Volume:<select name="tipo">
 			<option value="livro">Livro</option>
 			<option value="periodico">Periódico</option>
 			<option value="foto">Foto</option>

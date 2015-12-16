@@ -14,8 +14,8 @@
 	
 		<a href="Cadastro.jsp">Cadastrar Volumes</a>
 		
-		</br>
-		</br>
+		<br>
+		<br>
 		
 		<a href="Retirada.jsp">Remover Volumes</a>
 	</body>

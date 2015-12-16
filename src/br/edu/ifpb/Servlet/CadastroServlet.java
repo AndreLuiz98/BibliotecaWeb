@@ -33,7 +33,7 @@ public class CadastroServlet extends HttpServlet {
 		volume.setEditora(request.getParameter("editora"));
 		volume.setTipo(request.getParameter("tipoVolume"));
 		volume.setNum_pag(request.getParameter("paginas"));
-		volume.setEditora(request.getParameter("editora"));
+		volume.setTitulo(request.getParameter("titulo"));
 
 		try {
 

@@ -48,6 +48,17 @@ public class VolumeADV {
 		}
 		return true;
 	}
+	public void remove(Volume volume) {
+	     try {
+	         PreparedStatement stmt = connection.prepareStatement("delete" +
+	                 "from tb_volume where TITULO=?");
+	         stmt.setString(7, volume.getTitulo());
+	         stmt.execute();
+	         stmt.close();
+	     } catch (SQLException e) {
+	         throw new RuntimeException(e);
+	     }
+	 }
 
 	public void disconnect() throws SQLException {
 		this.connection.close();	
