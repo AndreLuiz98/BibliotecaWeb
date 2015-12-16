@@ -51,12 +51,7 @@
 		
 		Editora:
 		
-		<select name="editora">
-			<option value="jbc">JBC</option>
-			<option value="shonen jump">Shonen Jump</option>
-			<option value="online">On Line</option>
-			<option value="conrad">Conrad</option>
-		</select>
+		<input type ="text" name="editora">
 		
 		 <br>
 		 <br>

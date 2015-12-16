@@ -27,12 +27,12 @@ public class CadastroServlet extends HttpServlet {
 
 		VolumeADV volumedao = new VolumeADV();
 
-		volume.setAno_public(request.getParameter("anoPublicacao"));
-		volume.setAutor(request.getParameter("autores"));
+		volume.setAno_public(request.getParameter("anodelanc"));
+		volume.setAutor(request.getParameter("autor"));
 		volume.setDescricao(request.getParameter("descricao"));
 		volume.setEditora(request.getParameter("editora"));
-		volume.setTipo(request.getParameter("tipoVolume"));
-		volume.setNum_pag(request.getParameter("paginas"));
+		volume.setTipo(request.getParameter("tipo"));
+		volume.setNum_pag(request.getParameter("quantpag"));
 		volume.setTitulo(request.getParameter("titulo"));
 
 		try {
